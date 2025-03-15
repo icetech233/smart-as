@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true, 
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "strict": false,
+    "types": [
+      "react",
+      "react-dom"
+    ],
+    "target": "ES2023",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src"
+  ]
+}
